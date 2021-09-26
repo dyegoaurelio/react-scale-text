@@ -164,4 +164,4 @@ ScaleText.defaultProps = {
 };
 
 // export default ScaleText;
-module.exports = ScaleText;
+module.exports = {ScaleText, getFillSize };
