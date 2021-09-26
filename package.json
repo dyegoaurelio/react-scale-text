@@ -1,6 +1,6 @@
 {
-  "name": "react-scale-text",
-  "version": "1.2.2",
+  "name": "@dyegoaurelio/react-scale-text",
+  "version": "1.2.3",
   "description": "A React component for keeping a component's text sized to fill it's container",
   "main": "lib/react-scale-text.js",
   "module": "lib/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/datchley/react-scale-text.git"
+    "url": "git+https://github.com/dyegoaurelio/react-scale-text.git"
   },
   "keywords": [
     "react-scale-text"
@@ -30,9 +30,9 @@
   "author": "David Atchley <david.m.atchley@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/datchley/react-scale-text/issues"
+    "url": "https://github.com/dyegoaurelio/react-scale-text/issues"
   },
-  "homepage": "https://github.com/datchley/react-scale-text",
+  "homepage": "https://github.com/dyegoaurelio/react-scale-text",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.35",
     "@babel/core": "^7.0.0-beta.35",
@@ -42,6 +42,7 @@
     "@babel/preset-es2015": "^7.0.0-beta.35",
     "@babel/preset-react": "^7.0.0-beta.35",
     "@babel/register": "^7.0.0-beta.35",
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-istanbul": "^0.12.2",
     "babel-loader": "^8.0.0-beta.0",
@@ -88,5 +89,9 @@
     "react-dom": "^15.4.2 || ^16.0.0",
     "shortid": "^2.2.8",
     "warning": "^3.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
   }
 }
