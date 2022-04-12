@@ -1,6 +1,6 @@
 {
   "name": "@dyegoaurelio/react-scale-text",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "A React component for keeping a component's text sized to fill it's container",
   "main": "lib/react-scale-text.js",
   "module": "lib/index.js",
@@ -85,8 +85,8 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "prop-types": "^15.6.0",
-    "react": "^15.4.2 || ^16.0.0",
-    "react-dom": "^15.4.2 || ^16.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "shortid": "^2.2.8",
     "warning": "^3.0.0"
   },
