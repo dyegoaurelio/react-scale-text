@@ -143,7 +143,7 @@ class ScaleText extends Component {
         style={style}
       >
         {
-            React.cloneElement(child, childProps)
+          React.cloneElement(child, childProps)
         }
       </div>
     );
@@ -164,4 +164,4 @@ ScaleText.defaultProps = {
 };
 
 // export default ScaleText;
-module.exports = {ScaleText, getFillSize };
+module.exports = { ScaleText, getFillSize };

@@ -109,7 +109,7 @@ class App extends Component {
       const sprops = Object.keys(props).filter(prop => props[prop] !== '').map(prop => `${prop}={${props[prop]}}`);
       return `
   const Component = (props) => (
-    <ScaleText${sprops.length ? ' ' + sprops.join(' ') : ''}>
+    <ScaleText${sprops.length ? ` ${sprops.join(' ')}` : ''}>
       ${child}
     </ScaleText>
   );
